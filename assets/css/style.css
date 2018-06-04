@@ -1,0 +1,83 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Coda', cursive;
+    font-size: 4em;
+    letter-spacing: 20px;
+}
+
+h4 {
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+div h1, div h4, i.large, a.btn-large {
+    color: #ebf4f7;
+}
+
+.bg {
+    background-image: url('../images/mountains_background_adj.jpg');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+}
+
+a.btn-large {
+    border: 1px solid #000c36;
+}
+
+div#sec1 {
+    background-color: #948866;
+    /* background-image: url('../images/circles-light.jpg');
+    height: 100%; 
+    background-repeat: repeat;
+    background-color: #464646; */
+}
+
+div#sec2 {
+    background-color: #8c8982;
+}
+
+#header {
+    padding-top: 230px;
+    margin: auto;
+    text-align: center;
+}
+
+
+#navigation {
+    overflow: hidden;
+}
+
+#navigation.sticky {
+    position: fixed;
+    z-index: 90;
+    background: rgb(84,110,122,.5);
+    top: 0;
+    width: 100%;
+}
+
+#navigation ul {
+    text-align: center;
+    word-spacing: 20px;
+}
+
+.content {
+    padding: 16px;
+}
+
+/*  UNSURE ABOUT THIS!!! --------------*/
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.flipped {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
